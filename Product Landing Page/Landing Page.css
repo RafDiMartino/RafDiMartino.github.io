@@ -1,0 +1,140 @@
+html,
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0);
+    border: 0;
+    border-radius: 2px;
+}
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#header-img {
+    width: 80px;
+    padding: 5px
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 50px;
+}
+
+#controller {
+    margin-right: auto;
+    font-size: 20px;
+    padding-left: 10px
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.t {
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/6/69/PlayStation_button_T.svg);
+}
+
+.c {
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6b/PlayStation_button_C.svg);
+}
+
+.x {
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8f/PlayStation_button_X.svg);
+}
+
+.s {
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/4/49/PlayStation_button_S.svg);
+}
+
+li {
+    font-size: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+#video1 {
+    padding-bottom: 100px;
+}
+
+#video2 {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+input {
+    max-width: 100%;
+    width: 400px;
+    height: 30px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    text-align: center;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 100px;
+    background-color: #3266f5;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 750px) {
+    li {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

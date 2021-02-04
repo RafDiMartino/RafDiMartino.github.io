@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="img/favicon R.png">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="Survey Form.css" type="text/css">
+</head>
+
+<body>
+    <form id="survey-form">
+        <h1 id="title">Object-Oriented Programming Survey</h1>
+        <p id="description">What's your favourite object-oriented programming language</p>
+        <div id="div">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" class="textsize" id="name" placeholder="Enter your name" required><br>
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" class="textsize" id="email" placeholder="Enter your email" required><br>
+            <label for="number" id="number-label">Age</label><br>
+            <input type="number" class="textsize" id="number" min="1" max="120" placeholder="Enter your age (optional)"><br><br>
+            <label for="OS">Which OS do you use?</label>
+            <select name="OS" id="dropdown">
+              <option value="" disabled selected>Select your option</option>
+              <option value="unix/linux">Unix/Linux</option>
+              <option value="windows">Windows</option>
+              <option value="macos">macOS</option>
+              <option value="other">Other</option>
+            </select><br><br>
+            <label for="radio" id="radio">Are you a professional developer?</label><br>
+            <input id="yes" type="radio" name="radio-button" value="yes">Yes
+            <input id="no" type="radio" name="radio-button" value="no">No<br><br>
+            <label for="checkbox" id="checkbox">Choose you favourite programming language:</label><br>
+            <input type="checkbox" name="python" value="python">Python
+            <input type="checkbox" name="java" value="java">Java
+            <input type="checkbox" name="C++" value="c++">C++
+            <input type="checkbox" name="Ruby" value="ruby">Ruby
+            <input type="checkbox" name="C#" value="c#">C#<br><br>
+            <label for="comment">Please comment your choice</label><br>
+            <textarea name="comment" id="textarea" placeholder="Enter your comment here..."></textarea><br>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

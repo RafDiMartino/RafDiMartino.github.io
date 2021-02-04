@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="img/favicon R.png">
+    <meta charset="UTF-8">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="Technical Documentation Page.css" type="text/css">
+</head>
+
+<body>
+    <div class="divnav">
+        <nav id="navbar">
+            <header id="tutorial"> JS Tutorial</header>
+            <ol>
+                <li><a class="nav-link" href="#JS_Syntax">JS Syntax</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Values">JS Values</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Literals">JS Literals</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Variables">JS Variables</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Operators">JS Operators</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Expressions">JS Expressions</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Keywords">JS Keywords</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Comments">JS Comments</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Identifiers">JS Identifiers</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_is_Case_Sensitive">JS is Case Sensitive</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_and_Camel_Case">JS and Camel Case</a></li>
+                <hr>
+                <li><a class="nav-link" href="#JS_Character_Set">JS Character Set</a></li>
+                <hr>
+            </ol>
+        </nav>
+    </div>
+    <main id="main-doc">
+        <section class="main-section" id="JS_Syntax">
+            <header>JS Syntax</header>
+            <p>JavaScript syntax is the set of rules, how JavaScript programs are constructed:</p>
+            <div id="code-color">
+                <code>var x, y, z;       // Declare Variables</code><br><br>
+                <code>x = 5; y = 6;      // Assign Values</code><br> <br>
+                <code>z = x + y;         // Compute Values</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Values">
+            <header>JS Values</header>
+            <p>The JavaScript syntax defines two types of values:</p>
+            <ul>
+                <li>Fixed values</li>
+                <li>Variable values</li>
+            </ul>
+            <p>Fixed values are called <b>Literals</b>.</p>
+            <p>Variable values are called <b>Variables</b>.</p>
+        </section>
+        <section class="main-section" id="JS_Literals">
+            <header>JS Literals</header>
+            <p>The two most important syntax rules for fixed values are:</p>
+            <p>1. <b>Numbers</b> are written with or without decimals:</p>
+            <div id="code-color">
+                <code>10.50</code><br><br>
+                <code>1001</code>
+            </div>
+            <p>2. <b>Strings</b> are text, written within double or single quotes:</p>
+            <div id="code-color">
+                <code>"John Doe"</code><br><br>
+                <code>'John Doe'</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Variables">
+            <header>JS Variables</header>
+            <p>In a programming language, <b>variables</b> are used to <b>store</b> data values.</p>
+            <p>JavaScript uses the
+                <font color="red">var</font> keyword to <b>declare</b> variables.</p>
+            <p>An <b>equal sign</b> is used to <b>assign values</b> to variables.</p>
+            <p>In this example, x is defined as a variable. Then, x is assigned (given) the value 6:</p>
+            <div id="code-color">
+                <code>var x;</code><br><br>
+                <code>x = 6;</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Operators">
+            <header>JS Operators</header>
+            <p>JavaScript uses arithmetic operators (
+                <font color="red">+ - * /</font> ) to compute values:</p>
+            <div id="code-color">
+                <code>(5 + 6) * 10</code>
+            </div>
+            <p>JavaScript uses an assignment operator (
+                <font color="red">=</font> ) to assign values to variables:</p>
+            <div id="code-color">
+                <code>var x, y;</code><br><br>
+                <code>x = 5;</code><br><br>
+                <code>y = 6;</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Expressions">
+            <header>JS Expressions</header>
+            <p>An expression is a combination of values, variables, and operators, which computes to a value</p>
+            <p>The computation is called an evaluation.</p>
+            <p>For example, 5 * 10 evaluates to 50:</p>
+            <div id="code-color">
+                <code>5 * 10</code>
+            </div>
+            <p>Expressions can also contain variable values:</p>
+            <div id="code-color">
+                <code>x * 10</code>
+            </div>
+            <p>The values can be of various types, such as numbers and strings.</p>
+            <p>For example, "John" + " " + "Doe", evaluates to "John Doe":</p>
+            <div id="code-color">
+                <code>"John" + " " + "Doe"</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Keywords">
+            <header>JS Keywords</header>
+            <p>JavaScript <b>keywords</b> are used to identify actions to be performed.</p>
+            <p>The
+                <font color="red">var</font> keyword tells the browser to create variables:</p>
+            <div id="code-color">
+                <code>var x, y;</code><br><br>
+                <code>x = 5 + 6;</code><br><br>
+                <code>y = x * 10;</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Comments">
+            <header>JS Comments</header>
+            <p>Not all JavaScript statements are "executed".</p>
+            <p>Code after double slashes
+                <font color="red">//</font> or between
+                <font color="red">/*</font> and
+                <font color="red">*/</font> is treated as a comment.</p>
+            <p>Comments are ignored, and will not be executed:</p>
+            <div id="code-color">
+                <code>var x = 5;   // I will be executed</code><br><br>
+                <code>// var x = 6;   I will NOT be executed</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_Identifiers">
+            <header>JS Identifiers</header>
+            <ul>
+                <li>Identifiers are names.</li>
+                <li>In JavaScript, identifiers are used to name variables (and keywords, and functions, and labels).</li>
+                <li>The rules for legal names are much the same in most programming languages.</li>
+                <li>In JavaScript, the first character must be a letter, or an underscore (_), or a dollar sign ($).</li>
+                <li>Subsequent characters may be letters, digits, underscores, or dollar signs.</li>
+            </ul><br>
+            <p>
+                <font color="red"><b>Numbers are not allowed as the first character.</b></font>
+            </p>
+            <p>
+                <font color="red"><b>This way JavaScript can easily distinguish identifiers from numbers.</b></font>
+            </p>
+        </section>
+        <section class="main-section" id="JS_is_Case_Sensitive">
+            <header>JS is Case Sensitive</header>
+            <p>All JavaScript identifiers are <b>case sensitive</b>.</p>
+            <p>The variables
+                <font color="red">lastName</font> and
+                <font color="red">lastname</font>, are two different variables:</p>
+            <div id="code-color">
+                <code>var lastname, lastName;</code><br><br>
+                <code>lastName = "Doe";</code><br><br>
+                <code>lastname = "Peterson";</code>
+            </div>
+        </section>
+        <section class="main-section" id="JS_and_Camel_Case">
+            <header>JS and Camel Case</header>
+            <p>Historically, programmers have used different ways of joining multiple words into one variable name:</p>
+            <p><b>Hyphens:</b></p>
+            <p>first-name, last-name, master-card, inter-city.</p><br>
+            <p>
+                <font color="red"><b>Hyphens are not allowed in JavaScript. They are reserved for subtractions.</b></font>
+            </p><br>
+            <p><b>Underscore:</b></p>
+            <p>first_name, last_name, master_card, inter_city.</p>
+            <p><b>Upper Camel Case (Pascal Case):</b></p>
+            <p>FirstName, LastName, MasterCard, InterCity.</p>
+            <p><b>Lower Camel Case:</b></p>
+            <p>JavaScript programmers tend to use camel case that starts with a lowercase letter:</p>
+            <p>firstName, lastName, masterCard, interCity.</p>
+        </section>
+        <section class="main-section" id="JS_Character_Set">
+            <header>JS Character Set</header>
+            <p>JavaScript uses the <b>Unicode</b> character set.</p>
+            <p>Unicode covers (almost) all the characters, punctuations, and symbols in the world.</p>
+        </section>
+        <section class="reference-section" id="Reference">
+            <header>Reference</header>
+            <p>All the documentation in this page is taken from <a id="W3Schools" href="https://www.w3schools.com/" target="_blank">W3Schools.com</a></p>
+        </section>
+    </main>
+</body>
+
+</html>

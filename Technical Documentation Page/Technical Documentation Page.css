@@ -1,0 +1,96 @@
+body {
+    font-family: monospace;
+    display: flex;
+    margin: 0;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgba(174, 175, 174, 0.418);
+    width: 320px;
+    color: rgb(0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0.39);
+}
+
+#tutorial {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+}
+
+.main-section {
+    text-align: left;
+    background-color: rgb(253, 253, 253);
+    padding-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+.reference-section {
+    text-align: left;
+    background-color: rgb(253, 253, 253);
+    padding-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+}
+
+ol {
+    list-style: none;
+    width: 100%;
+    font-size: 25px;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+li {
+    padding-left: 20px;
+}
+
+#code-color {
+    max-width: 100%;
+    background-color: black;
+    color: rgb(0, 238, 0);
+    padding: 20px;
+    font-size: 15px;
+}
+
+header {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+hr {
+    border: 0.5px solid rgba(0, 0, 0, 0.39);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    body {
+        display: block;
+    }
+    #navbar {
+        width: 100%;
+        text-align: center;
+    }
+}

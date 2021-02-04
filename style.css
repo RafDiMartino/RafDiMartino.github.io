@@ -150,6 +150,14 @@ img {
     transition: .2s ease-in-out;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
 @media (min-width: 500px) {
     .full-name {
         grid-row: 4/6;
