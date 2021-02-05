@@ -34,6 +34,16 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
+    animation: slideleft 2s;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 h1 {
@@ -50,6 +60,16 @@ p {
     text-align: center;
     font-weight: 500;
     font-size: 0.8em;
+    animation: slidedown 3s;
+}
+
+@keyframes slidedown {
+    0% {
+        transform: translateY(-1000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 .social-media {
@@ -64,7 +84,17 @@ p {
     margin: 0.5em;
     width: 27px;
     height: auto;
-    transition: transform .1s ease-in-out;
+    animation: slideup 3s;
+    transition: transform .1s;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(3000%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
 
 .social:hover {
