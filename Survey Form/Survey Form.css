@@ -9,57 +9,64 @@ body {
 }
 
 h1 {
-    padding-top: 50px;
     text-align: center;
-    font-size: 38px;
+    font-size: 2.5em;
     font-weight: 500;
 }
 
 #description {
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 1.3em;
     font-style: italic;
     text-align: center;
 }
 
 #survey-form {
-    padding: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #div {
+    width: 100%;
     background-color: rgba(41, 121, 124, 0.534);
     border-radius: 5px;
-    padding: 40px;
     font-size: 20px;
-    max-width: 700px;
-    height: auto;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+
 }
 
 #name {
-    margin-top: 5px;
+    max-width: 40em;
+    width: 80%;
+    height: 3em;
     margin-bottom: 30px;
-    width: 500px;
-    padding: 10px;
     border-radius: 5px;
 }
 
 #email {
+    max-width: 40em;
+    width: 80%;
+    height: 3em;
     margin-top: 5px;
     margin-bottom: 30px;
-    width: 500px;
-    padding: 10px;
     border-radius: 5px;
 }
 
 #number {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    width: 500px;
-    padding: 10px;
+    max-width: 40em;
+    width: 80%;
+    height: 3em;
+    margin: 5px 0 30px;
     border-radius: 5px;
 }
+
 
 input,
 textarea {
@@ -67,38 +74,41 @@ textarea {
     font-size: 15px;
     text-align: center;
     border: 0;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    
 }
+
+.textsize {
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+
 
 #dropdown {
+    max-width: 15em;
+    width: 80%;
+    height: 3em;
     font-family: inherit;
     font-size: 15px;
-    width: 200px;
     border-radius: 5px;
     border: 0;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
-    padding-left: 35px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    margin-top: 20px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
     margin-bottom: 30px;
+    padding-left: 3em;
 }
 
+
 input[type=radio] {
-    margin-top: 20px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    transform: scale(1.5);
+    margin: 2em 1em 2em;
 }
 
 input[type=checkbox] {
-    margin-top: 30px;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    transform: scale(1.5);
+    margin: 30px 10px 30px;
 }
 
 #textarea {
-    width: 500px;
+    max-width: 40em;
+    width: 80%;
     height: 100px;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -106,16 +116,41 @@ input[type=checkbox] {
     text-align: left;
     resize: vertical;
     padding: 10px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
 }
 
 #submit {
+    max-width: 35em;
+    width: 80%;
     font-size: 18px;
-    width: 525px;
     padding: 10px;
     border-radius: 5px;
     border: 0;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
-    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px rgb(0, 0, 0);
+    margin-bottom: 3em;
     color: whitesmoke;
     background-color: rgba(0, 32, 30, 0.61);
+}
+
+@media (min-width: 750px){
+    #div {
+        width: 80%;
+        margin-bottom: 5em;
+    }
+
+    h1 {
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 1024px){
+    #div {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1440px){
+    #div {
+        width: 60%;
+    }
 }
