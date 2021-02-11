@@ -1,19 +1,19 @@
 body {
     font-family: monospace;
-    display: flex;
     margin: 0;
 }
 
 #navbar {
     position: sticky;
     top: 0;
+    width: 100%;
     background-color: rgba(174, 175, 174, 0.418);
-    width: 320px;
     color: rgb(0, 0, 0);
     border-right: 4px solid rgba(0, 0, 0, 0.39);
 }
 
 #tutorial {
+    text-align: center;
     font-size: 30px;
     font-weight: 700;
     padding: 20px;
@@ -50,10 +50,17 @@ ol {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+
 }
 
 li {
+    text-align: center;
     padding-left: 20px;
+}
+
+.value {
+    text-align: left;
+    padding-bottom: 1em;
 }
 
 #code-color {
@@ -66,6 +73,8 @@ li {
 
 header {
     font-size: 30px;
+    padding-bottom: 0.7em;
+
 }
 
 p {
@@ -85,12 +94,27 @@ a {
     color: black;
 }
 
-@media (max-width: 700px) {
+.identifiers {
+    text-align: left;
+    padding-bottom: 1em;
+}
+
+@media (min-width: 700px) {
     body {
-        display: block;
+        display: flex;
     }
+
     #navbar {
-        width: 100%;
-        text-align: center;
+        height: 100vh;
+        width: 320px;
     }
+
+    li {
+        text-align: left;
+    }
+
+    #tutorial {
+        text-align: left;
+    }
+    
 }
