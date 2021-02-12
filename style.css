@@ -4,6 +4,7 @@ body {
     padding: 0;
     color: rgb(235, 235, 235);
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -114,13 +115,13 @@ p {
 
 @keyframes updown {
     0% {
-        transform: translateY(-100%);
+        transform: translateY(-200%);
     }
     50% {
-        transform: translateY(30%);
+        transform: translateY(-20%);
     }
     100% {
-        transform: translateY(-100%);
+        transform: translateY(-200%);
     }
 }
 
@@ -261,9 +262,6 @@ a:active {
     .work-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    .full-name {
-        animation: slideleft 2s;
-    }
 }
 
 @media (min-width: 1440px) {
@@ -277,9 +275,9 @@ a:active {
         font-size: 1.5em;
         grid-row: 5/7;
         grid-column: 9/12;
-        animation: slidedown 3s;
+        animation: slideright 3s;
     }
-    @keyframes slidedown {
+    @keyframes slideright {
         0% {
             transform: translateY(-1000%);
         }
