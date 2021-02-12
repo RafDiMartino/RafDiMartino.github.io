@@ -60,15 +60,15 @@ p {
     text-align: center;
     font-weight: 500;
     font-size: 0.8em;
-    animation: slidedown 3s;
+    animation: slideright 3s;
 }
 
-@keyframes slidedown {
+@keyframes slideright {
     0% {
-        transform: translateY(-1000%);
+        transform: translateX(300%);
     }
     100% {
-        transform: translateY(0%);
+        transform: translateX(0%);
     }
 }
 
@@ -84,16 +84,16 @@ p {
     margin: 0.5em;
     width: 27px;
     height: auto;
-    animation: slideup 3s;
+    animation: slidesocial 3s;
     transition: transform .1s;
 }
 
-@keyframes slideup {
+@keyframes slidesocial {
     0% {
-        transform: translateY(3000%);
+        transform: translateX(-5500%);
     }
     100% {
-        transform: translateY(0%);
+        transform: translateX(0%);
     }
 }
 
@@ -261,6 +261,9 @@ a:active {
     .work-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .full-name {
+        animation: slideleft 2s;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -279,6 +282,17 @@ a:active {
         grid-column: 9/12;
         grid-row: 7/9;
         justify-content: flex-end;
+    }
+    .social {
+        animation: slidesocial 3s;
+    }
+    @keyframes slidesocial {
+        0% {
+            transform: translateX(3000%);
+        }
+        100% {
+            transform: translateX(0%);
+        }
     }
 }
 
