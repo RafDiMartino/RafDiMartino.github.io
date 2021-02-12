@@ -277,7 +277,17 @@ a:active {
         font-size: 1.5em;
         grid-row: 5/7;
         grid-column: 9/12;
+        animation: slidedown 3s;
     }
+    @keyframes slidedown {
+        0% {
+            transform: translateY(-1000%);
+        }
+        100% {
+            transform: translateY(0%);
+        }
+    }
+    
     .social-media {
         grid-column: 9/12;
         grid-row: 7/9;
