@@ -1,0 +1,110 @@
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.clock- {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    color:rgb(20, 20, 20);
+    font-size: 2.8em;
+    background-color: #1a1a1a;
+    padding: 0.2em;
+    border-radius: 15px;
+    text-shadow: 0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7);
+    box-shadow: 
+        12px 12px 16px 0 rgba(0, 0, 0, 0.548),
+        -8px -8px 12px 0 rgba(99, 99, 99, 0.144);
+}
+
+.line1 {
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    
+}
+
+#seconds {
+    width: 1.7em;
+}
+
+.line2 {
+    text-align: center;
+    font-size: 0.7em;  
+}
+
+.line3 {
+    display: flex;
+    font-weight: 500;
+    font-size: 0.2em;
+    text-shadow: 0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7);
+    margin: 1em 0em;
+}
+
+.btn- {
+    padding: 0.2em 5em;
+    border-radius: 2px;
+    background-color: rgba(255, 0, 0, 0.205);
+    box-shadow: 
+    0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7),
+    inset 1px 1px 2px 0 rgba(0, 0, 0, 0.548),
+    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.548);
+}
+
+.clock-:active, .on {
+    background-color: #18181880;
+    text-shadow: 0px 1px 0px rgba(82, 82, 82, 0.253), 0px -1.5px 0px rgb(0, 0, 0);
+    box-shadow: 
+    inset 4px 4px 8px 0 rgba(0, 0, 0, 0.548),
+    inset -4px -4px 8px 0 rgba(99, 99, 99, 0.144);
+}
+
+.btn-:active {
+    box-shadow: 
+    inset 2px 2px 4px 0 rgba(0, 0, 0, 0.548),
+    inset -2px -2px 4px 0 rgba(99, 99, 99, 0.144);
+}
+
+@media (min-width: 400px) {
+    #clock{
+        padding: 0.6em;
+    }
+    .line2 {
+        font-size: 0.7em;
+    }
+    .line3 {
+        margin: 2em 0 0 0;
+    }
+}
+
+@media (min-width: 500px) {
+    #clock{
+        font-size: 3.6em;
+        padding: 0.7em;
+    }
+    .line2 {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 750px) {
+    #clock{
+        font-size: 3.8em;
+        padding: 0.8em;
+    }
+    .line2 {
+        font-size: 0.72em;
+    }
+}

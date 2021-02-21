@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img/favicon R.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+
+</head>
+<body>
+    <div class="clock-" id="clock" onclick="buttonOn()" ondblclick="buttonOff()">
+        <div class="line1">
+            <div class="time" id="hours"></div>
+            <div class="time" id="minutes"></div>
+            <div class="time" id="seconds"></div>
+            <div class="time" id="ampm"></div>
+        </div>
+        <div class="line2" id="date"></div>
+        <div class="line3" id="light">
+            <div class="btn-" id="btn"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
