@@ -9,54 +9,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <title>Raffaele Di Martino | Portfolio</title>
 </head>
 
-<body>
+<body id="body">
     <div class="container">
-        <div class="full-name">
+        <div class="full-name" id="fullNameW">
             <h1 class="name">RAFFAELE</h1>
             <h1 class="surname">DI MARTINO</h1>
         </div>
-        <p>&#9473; An aspiring Frontend Web Developer with an Art & Design background &#9473;</p>
-        <div class="social-media">
+        <div class="full-name" id="fullNameB">
+            <h1 class="name">RAFFAELE</h1>
+            <h1 class="surname">DI MARTINO</h1>
+        </div>
+        <p id="pWhite">&#9473; An aspiring Frontend Web Developer with an Art & Design background &#9473;</p>
+        <p id="pBlack">&#9473; An aspiring Frontend Web Developer with an Art & Design background &#9473;</p>
+        <div class="social-media" id="allWhite">
             <a href="https://www.linkedin.com/in/raffaele-di-martino-33b8a4106/" target="_blank"><img class="social" src="img/linkedin white.png" alt="linkedin logo"></a>
             <a href="https://github.com/RafDiMartino" target="_blank"><img class="social" src="img/github white.png" alt="github logo"></a>
             <a href="https://codepen.io/R4F" target="_blank"><img class="social" src="img/codepen white.png" alt="codepen logo"></a>
             <a href="mailto: r.dimartino.uk@gmail.com"><img class="social" src="img/mail white.png" alt="mail logo"></a>
         </div>
-        <div class="arrow-down">
+        <div class="social-media sblack" id="allBlack">
+            <a href="https://www.linkedin.com/in/raffaele-di-martino-33b8a4106/" target="_blank"><img class="social" src="img/linkedin black.png" alt="linkedin logo"></a>
+            <a href="https://github.com/RafDiMartino" target="_blank"><img class="social" src="img/github black.png" alt="github logo"></a>
+            <a href="https://codepen.io/R4F" target="_blank"><img class="social" src="img/codepen black.png" alt="codepen logo"></a>
+            <a href="mailto: r.dimartino.uk@gmail.com"><img class="social" src="img/mail black.png" alt="mail logo"></a>
+        </div>
+        <div class="lightMode" id="lightMode" onclick="lightMode()">
+            <div class="button" id="button"></div>
+        </div>
+        <div class="arrow-down" id="arrow">
             <a href="#work"><img class="arrow" src="img/arrow down.png" alt="arrow down"></a>
+        </div>
+        <div class="arrow-down ablack" id="arrowBlack">
+            <a href="#work"><img class="arrow" src="img/arrow down black.png" alt="arrow down"></a>
         </div>
     </div>
     <div class="work-container" id="work">
         <div class="inside-grid">
-            <div class="des"><a href="DigitalClock/index.html" target="_blank">Digital Clock <br> HTML - CSS - JavaScript </a></div>
-            <img class="vp projects" src="img/Digital Clock.png" alt="Digital Clock">
+            <div class="des" id="p7"> Digital Clock
+                <div class="icons3"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js"></i></div>
+            </div>
+            <img class="projects" id="DC" src="img/Digital Clock.png" alt="Digital Clock">
         </div>
         <div class="inside-grid">
-            <div class="des"><a href="Virtual Piano-/Virtual Piano.html" target="_blank">Virtual Piano <br> HTML - CSS - JavaScript </a></div>
-            <img class="vp projects" src="img/virtual piano square2.png" alt="Virtual Piano">
+            <div class="des" id="p6"> Virtual Piano
+                <div class="icons3"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js"></i></div>
+            </div>
+            <img class="projects" id="VP" src="img/virtual piano square2.png" alt="Virtual Piano">
         </div>
         <div class="inside-grid">
-            <div class="des"><a href="Flashcards/index.html" target="_blank">Flash Cards<br>HTML-CSS </a></div>
-            <img class="fc projects" src="img/FlashCards square.png" alt="FlashCards">
+            <div class="des" id="p5"> Flash Cards
+                <div class="icons2"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></div>
+            </div>
+            <img class="projects" src="img/FlashCards square.png" alt="FlashCards">
         </div>
         <div class="inside-grid">
-            <div class="des"><a href="Product Landing Page/Landing Page.html" target="_blank">Product Landing Page<br>HTML-CSS </a></div>
-            <img class="lp projects" src="img/landingpage square.png" alt="Landing Page">
+            <div class="des" id="p4"> Product Landing Page
+                <div class="icons2"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></div>
+            </div>
+            <img class="projects" src="img/landingpage square.png" alt="Landing Page">
         </div>
         <div class="inside-grid">
-            <div class="des"><a href="Survey Form/Survey Form.html" target="_blank">Survey Form<br>HTML-CSS </a></div>
-            <img class="sf projects" src="img/SurveyForm.png" alt="Survey Form">
+            <div class="des" id="p3"> Survey Form
+                <div class="icons2"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></div>
+            </div>
+            <img class="projects" src="img/SurveyForm.png" alt="Survey Form">
         </div>
         <div class="inside-grid">
-            <div class="des"><a href="Technical Documentation Page/Technical Documentation Page.html" target="_blank">Technical Documentation Page<br>HTML-CSS </a></div>
-            <img class="dp projects" id="doc" src="img/DocPage.png" alt="Documentation Page">
+            <div class="des" id="p2"> Technical Documentation Page
+                <div class="icons2"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></div>
+            </div>
+            <img class="projects" src="img/DocPage.png" alt="Documentation Page">
         </div>
         <div class="inside-grid">
-            <div class="des"><a href="Tribute-Page/tribute page.html" target="_blank">Tribute Page<br>HTML-CSS </a></div>
-            <img class="tp projects" src="img/TributePage.png" alt="Tribute Page">
+            <div class="des" id="p1"> Tribute Page
+                <div class="icons2"><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i></div>
+            </div>
+            <img class="projects" src="img/TributePage.png" alt="Tribute Page">
         </div>
     </div>
     <script src="script.js"></script>
