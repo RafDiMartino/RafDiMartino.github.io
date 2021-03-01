@@ -88,7 +88,6 @@ div {
     }
 }
 
-
 @media (min-width: 500px) {
     .container {
         grid-template-columns: 1fr 1fr 1f;
