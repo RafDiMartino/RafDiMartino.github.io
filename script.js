@@ -50,7 +50,7 @@ function lightMode() {
         document.getElementById("arrow").style.display = "none";
         document.getElementById("allWhite").style.display = "none";
         document.getElementById("allBlack").style.display = "flex";
-        let y = document.querySelectorAll(".des")
+        let y = document.querySelectorAll(".desTitle")
         for (let i = 0; i < y.length; i++) {
             y[i].style.backgroundColor = "rgba(255, 255, 255, 0.833)";
             y[i].style.color = "black";
@@ -70,7 +70,7 @@ function lightMode() {
         document.getElementById("arrowBlack").style.display = "none";
         document.getElementById("allWhite").style.display = "flex";
         document.getElementById("allBlack").style.display = "none";
-        let y = document.querySelectorAll(".des")
+        let y = document.querySelectorAll(".desTitle")
         for (let i = 0; i < y.length; i++) {
             y[i].style.backgroundColor = "rgba(0, 0, 0, 0.733)";
             y[i].style.color = "white";
