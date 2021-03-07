@@ -1,5 +1,15 @@
+:root {
+    --backgroundsColor: #1a1a1a;
+    --textShadow: 0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7);
+    --textShadowActive: 0px 1px 0px rgba(82, 82, 82, 0.253), 0px -1.5px 0px rgb(0, 0, 0);
+    --clockColor: rgb(20, 20, 20);
+    --clockBoxShadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.548), -8px -8px 12px 0 rgba(99, 99, 99, 0.144);
+    --btnBoxShadow: 0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7), inset 1px 1px 2px 0 rgba(0, 0, 0, 0.548), inset -1px -1px 2px 0 rgba(0, 0, 0, 0.548);
+    --boxShadowActive: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.548), inset -4px -4px 8px 0 rgba(99, 99, 99, 0.144);
+}
+
 body {
-    background-color: #1a1a1a;
+    background-color: var(--backgroundsColor);
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +18,6 @@ body {
     text-align: center;
     width: 100vw;
     height: 100vh;
-    
 }
 
 .clock- {
@@ -18,22 +27,19 @@ body {
     flex-direction: column;
     font-family: 'Orbitron', sans-serif;
     cursor: pointer;
-    color:rgb(20, 20, 20);
+    color: var(--clockColor);
     font-size: 2.8em;
-    background-color: #1a1a1a;
+    background-color: var(--backgroundsColor);
     padding: 0.2em;
     border-radius: 15px;
-    text-shadow: 0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7);
-    box-shadow: 
-        12px 12px 16px 0 rgba(0, 0, 0, 0.548),
-        -8px -8px 12px 0 rgba(99, 99, 99, 0.144);
+    text-shadow: var(--textShadow);
+    box-shadow: var(--clockBoxShadow)
 }
 
 .line1 {
     font-weight: 400;
     display: flex;
     text-align: center;
-    
 }
 
 #seconds {
@@ -42,14 +48,14 @@ body {
 
 .line2 {
     text-align: center;
-    font-size: 0.7em;  
+    font-size: 0.7em;
 }
 
 .line3 {
     display: flex;
     font-weight: 500;
     font-size: 0.2em;
-    text-shadow: 0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7);
+    text-shadow: var(--textShadow);
     margin: 1em 0em;
 }
 
@@ -57,28 +63,18 @@ body {
     padding: 0.2em 5em;
     border-radius: 2px;
     background-color: rgba(255, 0, 0, 0.205);
-    box-shadow: 
-    0px 1px 0px rgba(82, 82, 82, 0.3), 0px -1.5px 0px rgba(0, 0, 0, .7),
-    inset 1px 1px 2px 0 rgba(0, 0, 0, 0.548),
-    inset -1px -1px 2px 0 rgba(0, 0, 0, 0.548);
+    box-shadow: var(--btnBoxShadow)
 }
 
-.clock-:active, .on {
+.clock-:active,
+.on {
     background-color: #18181880;
-    text-shadow: 0px 1px 0px rgba(82, 82, 82, 0.253), 0px -1.5px 0px rgb(0, 0, 0);
-    box-shadow: 
-    inset 4px 4px 8px 0 rgba(0, 0, 0, 0.548),
-    inset -4px -4px 8px 0 rgba(99, 99, 99, 0.144);
-}
-
-.btn-:active {
-    box-shadow: 
-    inset 2px 2px 4px 0 rgba(0, 0, 0, 0.548),
-    inset -2px -2px 4px 0 rgba(99, 99, 99, 0.144);
+    text-shadow: var(--textShadowActive);
+    box-shadow: var(--boxShadowActive)
 }
 
 @media (min-width: 400px) {
-    #clock{
+    #clock {
         padding: 0.6em;
     }
     .line2 {
@@ -90,7 +86,7 @@ body {
 }
 
 @media (min-width: 500px) {
-    #clock{
+    #clock {
         font-size: 3.6em;
         padding: 0.7em;
     }
@@ -100,7 +96,7 @@ body {
 }
 
 @media (min-width: 750px) {
-    #clock{
+    #clock {
         font-size: 3.8em;
         padding: 0.8em;
     }
