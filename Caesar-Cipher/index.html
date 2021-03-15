@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon R.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="outerContainer">
+        <div class="container">
+            <div class="outerDisk" id="outer">
+                <span class="letter" id="L1">A</span>
+                <span class="letter" id="L2">B</span>
+                <span class="letter" id="L3">C</span>
+                <span class="letter" id="L4">D</span>
+                <span class="letter" id="L5">E</span>
+                <span class="letter" id="L6">F</span>
+                <span class="letter" id="L7">G</span>
+                <span class="letter" id="L8">H</span>
+                <span class="letter" id="L9">I</span>
+                <span class="letter" id="L10">J</span>
+                <span class="letter" id="L11">K</span>
+                <span class="letter" id="L12">L</span>
+                <span class="letter" id="L13">M</span>
+                <span class="letter" id="L14">N</span>
+                <span class="letter" id="L15">O</span>
+                <span class="letter" id="L16">P</span>
+                <span class="letter" id="L17">Q</span>
+                <span class="letter" id="L18">R</span>
+                <span class="letter" id="L19">S</span>
+                <span class="letter" id="L20">T</span>
+                <span class="letter" id="L21">U</span>
+                <span class="letter" id="L22">V</span>
+                <span class="letter" id="L23">W</span>
+                <span class="letter" id="L24">X</span>
+                <span class="letter" id="L25">Y</span>
+                <span class="letter" id="L26">Z</span>
+            </div>
+            <div class="innerDisk">
+                <span class="inner letter" id="L1">A</span>
+                <span class="inner letter" id="L2">B</span>
+                <span class="inner letter" id="L3">C</span>
+                <span class="inner letter" id="L4">D</span>
+                <span class="inner letter" id="L5">E</span>
+                <span class="inner letter" id="L6">F</span>
+                <span class="inner letter" id="L7">G</span>
+                <span class="inner letter" id="L8">H</span>
+                <span class="inner letter" id="L9">I</span>
+                <span class="inner letter" id="L10">J</span>
+                <span class="inner letter" id="L11">K</span>
+                <span class="inner letter" id="L12">L</span>
+                <span class="inner letter" id="L13">M</span>
+                <span class="inner letter" id="L14">N</span>
+                <span class="inner letter" id="L15">O</span>
+                <span class="inner letter" id="L16">P</span>
+                <span class="inner letter" id="L17">Q</span>
+                <span class="inner letter" id="L18">R</span>
+                <span class="inner letter" id="L19">S</span>
+                <span class="inner letter" id="L20">T</span>
+                <span class="inner letter" id="L21">U</span>
+                <span class="inner letter" id="L22">V</span>
+                <span class="inner letter" id="L23">W</span>
+                <span class="inner letter" id="L24">X</span>
+                <span class="inner letter" id="L25">Y</span>
+                <span class="inner letter" id="L26">Z</span>
+            </div>
+            <div class="textDisk">
+                <div class="encr-decr" id="EncrDecr">
+                    <div class="caesar">
+                        <span class="title style" id="caesarC">C</span>
+                        <span class="title style" id="caesarA1">A</span>
+                        <span class="title style" id="caesarE">E</span>
+                        <span class="title style" id="caesarS">S</span>
+                        <span class="title style" id="caesarA2">A</span>
+                        <span class="title style" id="caesarR">R</span>
+                    </div>
+                    <div class="cipher">
+                        <span class="title2 style" id="cipherC">C</span>
+                        <span class="title2 style" id="cipherI">I</span>
+                        <span class="title2 style" id="cipherP">P</span>
+                        <span class="title2 style" id="cipherH">H</span>
+                        <span class="title2 style" id="cipherE">E</span>
+                        <span class="title2 style" id="cipherR">R</span>
+                    </div>
+                    <div class="btns">
+                        <button class="btn1 lockUnlock" id="button1" onclick="function1()"><i class="fas fa-lock"></i></button>
+                        <button class="lockUnlock" id="button2" onclick="function2()"><i class="fas fa-unlock"></i></button>
+                    </div>
+                </div>
+                <div class="encrypt" id="Encrypt">
+                    <h6>&#9473;&#9473;&#9473;&#9473;</h6>
+                    <form id="formE" autocomplete="off">
+                        <textarea style="overflow: auto;" class="text" id="messageE" type="text" placeholder="Write here" rows="7" cols="15" wrap="soft" required></textarea>
+                    </form>
+                    <h6>&#9473;&#9473;&#9473;&#9473;</h6>
+                </div>
+                <div class="decrypt" id="Decrypt">
+                    <h6>&#9473;&#9473;&#9473;&#9473;</h6>
+                    <form id="formD" autocomplete="off">
+                        <textarea style="overflow: auto;" class="text" id="messageD" type="text" placeholder="Write here" rows="7" cols="15" wrap="soft" required></textarea>
+                    </form>
+                    <h6>&#9473;&#9473;&#9473;&#9473;</h6>
+                </div>
+            </div>
+        </div>
+        <div class="buttonsContainer">
+            <div id="buttonsE" class="buttonsED">
+                <button class="rot rot5" id="rot5En" onclick="rot5E()" disabled>ROT5</button>
+                <button class="rot rot13" id="rot13En" onclick="rot13E()" disabled>ROT13</button>
+                <button class="rot rot47" id="rot47En" onclick="rot47E()" disabled>ROT47</button>
+            </div>
+            <div id="buttonsD" class="buttonsED">
+                <button class="rot rot5" id="rot5De" onclick="rot5D()" disabled>ROT5</button>
+                <button class="rot rot13" id="rot13De" onclick="rot13D()" disabled>ROT13</button>
+                <button class="rot rot47" id="rot47De" onclick="rot47D()" disabled>ROT47</button>
+            </div>
+        </div>
+        <p id="result">RESULT</p>
+        <button class="back" onclick="back()">&#8592;</button>
+
+    </div>
+    <script src="script.js"></script>
+    <script src="ROT47.js"></script>
+    <script src="ROT13.js"></script>
+    <script src="ROT5.js"></script>
+
+</html>

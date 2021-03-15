@@ -1,3 +1,7 @@
+document.getElementById("p8").onclick = function() {
+    window.open("Caesar-Cipher/index.html");
+}
+
 document.getElementById("p7").onclick = function() {
     window.open("DigitalClock/index.html");
 }
