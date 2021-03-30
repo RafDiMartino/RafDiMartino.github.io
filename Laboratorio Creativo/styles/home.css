@@ -1,0 +1,89 @@
+.aboutContainer {
+    margin-top: 0.5em;
+    background-color: var(--about);
+}
+
+.logoyellow {
+    margin-top: 2em;
+    width: 200px;
+    height: auto;
+}
+
+.about {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 2em 0.8em 3em;
+    background-color: var(--about);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections {
+    margin: 2em 1em 2em;
+    box-shadow: 0 10px 10px -10px black;
+    background-color: var(--about);
+}
+
+.desContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    cursor: pointer;
+}
+
+.des {
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+@media (min-width: 500px) {
+    .logo {
+        width: 130px;
+    }
+    .iconNav {
+        width: 35px;
+        padding-right: 2em;
+    }
+    .shoes {
+        width: 45px;
+    }
+    .list {
+        justify-content: flex-end;
+        padding-right: 0;
+    }
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        margin: 6em 2em;
+        flex: 1;
+    }
+    .sections {
+        margin: 0em 0em;
+    }
+    .des {
+        font-size: 0.9em;
+    }
+    .aboutContainer {
+        grid-column: 1 / -1;
+    }
+    .footerAbout {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .gridContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .footerAbout {
+        max-width: 50%;
+    }
+}

@@ -1,0 +1,78 @@
+h1 {
+    color: var(--nav-footer);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6em;
+    padding: 1em 1em 0.5em;
+    background-color: var(--about);
+}
+
+.WrapContainer {
+    background-color: var(--about);
+    margin-top: 0.5em;
+}
+
+.contentWrapper {
+    background-color: var(--about);
+    padding: 1em 1em 0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+p {
+    padding-bottom: 1em;
+    max-width: 700px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+
+.buttonWrap {
+    width: 100%;
+    height: 45px;
+    background-color: var(--about);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: var(--about);
+    outline: none;
+    border: none;
+    padding: 0.5em 0.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--nav-footer);
+    cursor: pointer;
+}
+
+#espandi {
+    padding: 0;
+}
+
+#arrow {
+    width: 15px;
+    height: auto;
+    margin-top: 0.3em;
+}
+
+.gridGallery {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    gap: 2em;
+    margin: 2em 1em;
+}
+
+@media (min-width: 500px) {
+    .gridGallery {
+        grid-template-columns: ;
+    }
+}

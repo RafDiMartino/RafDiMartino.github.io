@@ -1,3 +1,7 @@
+document.getElementById("p9").onclick = function() {
+    window.open("Laboratorio Creativo/home.html");
+}
+
 document.getElementById("p8").onclick = function() {
     window.open("Caesar-Cipher/index.html");
 }

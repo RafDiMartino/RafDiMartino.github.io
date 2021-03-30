@@ -1,0 +1,170 @@
+:root {
+    --backgroundColor: rgb(235, 236, 245);
+    --nav-footer: rgb(142, 151, 247);
+    --about: rgb(192, 197, 247);
+    --backgroundColor: rgb(245, 245, 245);
+    --nav-footer: rgb(255, 213, 25);
+    --about: rgb(58, 58, 58);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--about) var(--nav-footer);
+    outline: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: var(--nav-footer);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: var(--about);
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: var(--about);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--nav-footer);
+    border-bottom: 1px solid black;
+}
+
+.logo {
+    height: auto;
+    width: 115px;
+    margin: 1em 0.5em 1em 1em;
+    cursor: pointer;
+}
+
+.iconNav {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+.shoes {
+    width: 40px;
+    height: auto;
+}
+
+.listContainer {
+    width: 100%;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding-right: 0em;
+    color: black;
+    font-size: 0.8em;
+}
+
+footer {
+    width: 100%;
+    background-color: var(--nav-footer);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5em 0em;
+    color: black;
+    border-top: 1px solid black;
+}
+
+.footerAbout {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contatti {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i {
+    font-size: 2em;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.logoAbout {
+    height: 30px;
+    width: auto;
+}
+
+.footIco {
+    cursor: pointer;
+}
+
+@media (min-width: 500px) {
+    .logo {
+        width: 130px;
+    }
+    .iconNav {
+        width: 35px;
+        padding-right: 2em;
+    }
+    .shoes {
+        width: 45px;
+    }
+    .list {
+        justify-content: flex-end;
+        padding-right: 0;
+    }
+    .footerAbout {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footerAbout {
+        max-width: 50%;
+    }
+}

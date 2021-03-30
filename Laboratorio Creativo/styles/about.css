@@ -1,0 +1,56 @@
+.aboutContainer {
+    flex: 1;
+    margin-top: 0.5em;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--nav-footer);
+    padding: 1em 1em 1em;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.divAbout {
+    width: 100%;
+    background-color: var(--about);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    margin: 3em;
+}
+
+.about {
+    text-align: center;
+    background-color: var(--about);
+    max-width: 700px;
+    padding: 0em 1em 2em;
+}
+
+ul.list2 {
+    font-size: 0.9em;
+    list-style-position: outside;
+    list-style-image: url(../img/listicon.png);
+    max-width: 450px;
+    margin: auto;
+    text-align: left;
+    color: black;
+    padding: 0em 0em 0em 1em;
+}
+
+.prodotti {
+    font-weight: bold;
+    margin-top: 2em;
+    text-align: center;
+    padding: 0em 1.35em 1em;
+    color: black;
+}
+
+ul.list2 li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
