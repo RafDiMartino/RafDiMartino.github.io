@@ -61,12 +61,19 @@ section {
     .gridContainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1em;
-        margin: 6em 2em;
+        gap: 2em;
+        margin: 6em 4em;
         flex: 1;
     }
     .sections {
         margin: 0em 0em;
+    }
+    .anchorSection {
+        transition: transform .2s ease;
+    }
+    .anchorSection:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
     .des {
         font-size: 0.9em;
