@@ -1,10 +1,10 @@
 .contentWrapper.expand {
-    height: 600px;
+    height: 625px;
 }
 
 @media (min-width: 375px) {
     .contentWrapper.expand {
-        height: 560px;
+        height: 590px;
     }
 }
 
@@ -16,12 +16,12 @@
 
 @media (min-width: 600px) {
     .contentWrapper.expand {
-        height: 390px;
+        height: 435px;
     }
 }
 
 @media (min-width: 768px) {
     .contentWrapper.expand {
-        height: 370px;
+        height: 400px;
     }
 }
