@@ -14,7 +14,7 @@ h1 {
 
 .contentWrapper {
     background-color: var(--about);
-    padding: 1em 1em 0em;
+    padding: 1em 2em 0em;
     display: flex;
     flex-direction: column;
     justify-content: center;
