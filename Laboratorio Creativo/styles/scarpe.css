@@ -8,6 +8,12 @@
     }
 }
 
+@media (min-width: 425px) {
+    .contentWrapper.expand {
+        height: 640px;
+    }
+}
+
 @media (min-width: 500px) {
     .contentWrapper.expand {
         height: 540px;
