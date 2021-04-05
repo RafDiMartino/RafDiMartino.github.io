@@ -145,6 +145,13 @@ img {
     cursor: pointer;
 }
 
+.madeBy {
+    padding-top: 2em;
+    font-weight: 500;
+    font-size: 0.7em;
+    font-family: 'Montserrat', sans-serif;
+}
+
 @media (min-width: 500px) {
     .logo {
         width: 130px;
