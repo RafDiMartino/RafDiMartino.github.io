@@ -1,5 +1,5 @@
 .contentWrapper.expand {
-    height: 625px;
+    height: 680px;
 }
 
 @media (min-width: 375px) {
@@ -10,7 +10,7 @@
 
 @media (min-width: 500px) {
     .contentWrapper.expand {
-        height: 450px;
+        height: 470px;
     }
 }
 
