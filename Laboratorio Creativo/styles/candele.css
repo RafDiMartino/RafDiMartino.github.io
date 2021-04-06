@@ -1,10 +1,10 @@
 .contentWrapper.expand {
-    height: 680px;
+    height: 685px;
 }
 
 @media (min-width: 375px) {
     .contentWrapper.expand {
-        height: 590px;
+        height: 598px;
     }
 }
 
@@ -16,18 +16,18 @@
 
 @media (min-width: 500px) {
     .contentWrapper.expand {
-        height: 470px;
+        height: 475px;
     }
 }
 
 @media (min-width: 600px) {
     .contentWrapper.expand {
-        height: 435px;
+        height: 440px;
     }
 }
 
 @media (min-width: 768px) {
     .contentWrapper.expand {
-        height: 400px;
+        height: 405px;
     }
 }
