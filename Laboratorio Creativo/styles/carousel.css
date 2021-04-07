@@ -1,0 +1,77 @@
+.aboutContainer {
+    margin-top: 0.5em;
+    background-color: var(--about);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoyellow {
+    margin-top: 0em;
+    width: 200px;
+    height: auto;
+}
+
+.about {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 2em 2em 3em;
+}
+
+.banner0 {
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.banner1 {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.banner2 {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.banner3 {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.banner3 .logoyellow {
+    padding-top: 3.9em;
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5em;
+}
+
+.dotControl {
+    cursor: pointer;
+    list-style: inside;
+    font-size: 2em;
+}
+
+.circleButtons {
+    width: 100%;
+    margin-left: 3em;
+}
+
+.dotContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot0 {
+    color: rgb(255, 213, 25);
+}
