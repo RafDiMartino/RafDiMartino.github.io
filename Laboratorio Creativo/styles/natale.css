@@ -1,33 +1,36 @@
 .contentWrapper.expand {
-    height: 458px;
+    height: 405px;
 }
 
 @media (min-width: 375px) {
     .contentWrapper.expand {
-        height: 385px;
+        height: 334px;
     }
 }
 
 @media (min-width: 425px) {
     .contentWrapper.expand {
-        height: 360px;
+        height: 298px;
     }
 }
 
 @media (min-width: 500px) {
     .contentWrapper.expand {
-        height: 298px;
+        height: 246px;
+    }
+    .firstLine {
+        margin-top: 0em;
     }
 }
 
 @media (min-width: 600px) {
     .contentWrapper.expand {
-        height: 265px;
+        height: 228px;
     }
 }
 
 @media (min-width: 768px) {
     .contentWrapper.expand {
-        height: 228px;
+        height: 192px;
     }
 }

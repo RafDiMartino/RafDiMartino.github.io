@@ -1,33 +1,36 @@
 .contentWrapper.expand {
-    height: 810px;
+    height: 756px;
 }
 
 @media (min-width: 375px) {
     .contentWrapper.expand {
-        height: 705px;
+        height: 650px;
     }
 }
 
 @media (min-width: 425px) {
     .contentWrapper.expand {
-        height: 640px;
+        height: 580px;
     }
 }
 
 @media (min-width: 500px) {
     .contentWrapper.expand {
-        height: 545px;
+        height: 510px;
+    }
+    .firstLine {
+        margin-top: 0em;
     }
 }
 
 @media (min-width: 600px) {
     .contentWrapper.expand {
-        height: 470px;
+        height: 440px;
     }
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
     .contentWrapper.expand {
-        height: 430px;
+        height: 385px;
     }
 }

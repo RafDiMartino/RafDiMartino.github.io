@@ -1,27 +1,30 @@
 .contentWrapper.expand {
-    height: 458px;
+    height: 405px;
 }
 
 @media (min-width: 375px) {
     .contentWrapper.expand {
-        height: 368px;
+        height: 317px;
     }
 }
 
 @media (min-width: 500px) {
     .contentWrapper.expand {
-        height: 330px;
+        height: 295px;
+    }
+    .firstLine {
+        margin-top: 0em;
     }
 }
 
 @media (min-width: 600px) {
     .contentWrapper.expand {
-        height: 298px;
+        height: 263px;
     }
 }
 
 @media (min-width: 768px) {
     .contentWrapper.expand {
-        height: 265px;
+        height: 228px;
     }
 }

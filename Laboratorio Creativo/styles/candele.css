@@ -1,33 +1,30 @@
 .contentWrapper.expand {
-    height: 685px;
+    height: 635px;
 }
 
 @media (min-width: 375px) {
     .contentWrapper.expand {
-        height: 598px;
+        height: 545px;
     }
 }
 
 @media (min-width: 425px) {
     .contentWrapper.expand {
-        height: 580px;
+        height: 527px;
     }
 }
 
 @media (min-width: 500px) {
     .contentWrapper.expand {
-        height: 475px;
-    }
-}
-
-@media (min-width: 600px) {
-    .contentWrapper.expand {
         height: 440px;
+    }
+    .firstLine {
+        margin-top: 0em;
     }
 }
 
 @media (min-width: 768px) {
     .contentWrapper.expand {
-        height: 405px;
+        height: 368px;
     }
 }
