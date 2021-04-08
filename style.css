@@ -350,6 +350,12 @@ i {
     }
 }
 
+@media (min-width: 1024px) {
+    .container {
+        height: 100vh;
+    }
+}
+
 @media (min-width: 1124px) {
     h1 {
         font-size: 5.5em;
