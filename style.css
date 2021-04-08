@@ -86,7 +86,7 @@ p {
 .social-media {
     display: flex;
     grid-column: 3/ 11;
-    grid-row: 8/10;
+    grid-row: 9/10;
     justify-content: center;
     align-items: center;
 }
@@ -121,7 +121,7 @@ p {
     justify-content: flex-start;
     justify-self: center;
     grid-column: 6 / 8;
-    grid-row: 10 / 11;
+    grid-row: 10 / 12;
     background-color: white;
     width: 1.7em;
     padding: 0.15em;
@@ -150,7 +150,7 @@ p {
 .arrow-down {
     display: none;
     grid-column: 6/8;
-    grid-row: 12/13;
+    grid-row: 14/15;
     text-align: center;
     animation: updown 4s ease-in-out infinite;
 }
@@ -285,6 +285,13 @@ i {
     }
     .lightMode {
         grid-row: 9 / 11;
+    }
+    .arrow-down {
+        display: none;
+        grid-column: 6/8;
+        grid-row: 12/13;
+        text-align: center;
+        animation: updown 4s ease-in-out infinite;
     }
 }
 
