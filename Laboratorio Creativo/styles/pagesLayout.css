@@ -86,8 +86,7 @@ button {
 }
 
 .gridGallery {
-    gap: 2em;
-    margin: 2em 2em;
+    margin: 2em 2em 0em;
 }
 
 .gridGallery img {
