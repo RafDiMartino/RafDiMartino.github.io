@@ -87,7 +87,7 @@ button {
 
 .gridGallery {
     display: grid;
-    grid-template-columns: auto;
+    /*grid-template-columns: auto;*/
     gap: 2em;
     margin: 2em 2em;
 }
