@@ -320,42 +320,6 @@ i {
     }
 }
 
-@media (min-width: 767px) {
-    .desTitle {
-        font-size: 1.2em;
-    }
-    .full-name {
-        text-align: center;
-        grid-column: 1/-1;
-        grid-row: 3/6;
-    }
-    h1 {
-        font-size: 5em;
-    }
-    p {
-        text-align: center;
-        margin: 0;
-        font-size: 1.3em;
-        grid-row: 6/8;
-    }
-    .social-media {
-        grid-column: 5/ 9;
-        grid-row: 8/9;
-    }
-    .social {
-        width: 35px;
-    }
-    .lightMode {
-        grid-row: 9 / 11;
-    }
-}
-
-@media (min-width: 1024px) {
-    .container {
-        height: 100vh;
-    }
-}
-
 @media (min-width: 1124px) {
     h1 {
         font-size: 5.5em;
@@ -410,6 +374,9 @@ i {
         justify-self: flex-start;
         margin-top: 0.5em;
         margin-right: 1em;
+    }
+    .container {
+        height: 100vh;
     }
 }
 
