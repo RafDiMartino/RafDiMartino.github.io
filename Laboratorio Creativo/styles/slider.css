@@ -27,6 +27,7 @@
 
 .message {
     padding: 0em 3em 2em;
+    cursor: grab;
 }
 
 .swiper-pagination-bullet {
