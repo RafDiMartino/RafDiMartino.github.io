@@ -28,10 +28,10 @@
     .contentWrapper.expand {
         height: 440px;
     }
-}
+}*/
 
 @media (min-width: 768px) {
     .contentWrapper.expand {
         height: 385px;
     }
-}*/
+}
