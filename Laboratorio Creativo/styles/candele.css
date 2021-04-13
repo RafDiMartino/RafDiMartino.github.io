@@ -2,28 +2,6 @@
     height: fit-content;
 }
 
-
-/*@media (min-width: 375px) {
-    .contentWrapper.expand {
-        height: 545px;
-    }
-}
-
-@media (min-width: 425px) {
-    .contentWrapper.expand {
-        height: 527px;
-    }
-}
-
-@media (min-width: 500px) {
-    .contentWrapper.expand {
-        height: 440px;
-    }
-    .firstLine {
-        margin-top: 0em;
-    }
-}*/
-
 @media (min-width: 768px) {
     .contentWrapper.expand {
         height: 368px;

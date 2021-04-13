@@ -2,34 +2,6 @@
     height: fit-content;
 }
 
-
-/*@media (min-width: 375px) {
-    .contentWrapper.expand {
-        height: 650px;
-    }
-}
-
-@media (min-width: 425px) {
-    .contentWrapper.expand {
-        height: 580px;
-    }
-}
-
-@media (min-width: 500px) {
-    .contentWrapper.expand {
-        height: 510px;
-    }
-    .firstLine {
-        margin-top: 0em;
-    }
-}
-
-@media (min-width: 600px) {
-    .contentWrapper.expand {
-        height: 440px;
-    }
-}*/
-
 @media (min-width: 768px) {
     .contentWrapper.expand {
         height: 385px;

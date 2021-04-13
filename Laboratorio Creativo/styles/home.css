@@ -49,6 +49,8 @@ section {
     }
     .gridContainer {
         display: grid;
+        justify-content: center;
+        align-items: center;
         grid-template-columns: 1fr 1fr;
         gap: 2em;
         margin: 4em 4em;
@@ -76,13 +78,10 @@ section {
 }
 
 @media (min-width: 1024px) {
-    .footerAbout {
-        max-width: 50%;
-    }
-}
-
-@media (min-width: 1024px) {
     .gridContainer {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .footerAbout {
+        max-width: 50%;
     }
 }
