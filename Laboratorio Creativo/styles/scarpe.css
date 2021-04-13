@@ -1,8 +1,9 @@
 .contentWrapper.expand {
-    height: 756px;
+    height: fit-content;
 }
 
-@media (min-width: 375px) {
+
+/*@media (min-width: 375px) {
     .contentWrapper.expand {
         height: 650px;
     }
@@ -33,4 +34,4 @@
     .contentWrapper.expand {
         height: 385px;
     }
-}
+}*/
