@@ -1,0 +1,69 @@
+.aboutContainer {
+    margin-top: 0.5em;
+    background-color: var(--about);
+    align-items: center;
+    overflow: hidden;
+}
+
+.logoyellow {
+    margin-top: 3em;
+    width: 200px;
+    height: auto;
+}
+
+.swiper-container {
+    width: 100vw;
+    height: 150px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--about);
+    color: white;
+}
+
+.message {
+    padding: 0em 3em 2em;
+}
+
+.swiper-pagination-bullet {
+    background-color: white;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--nav-footer);
+}
+
+.swiper-button-prev {
+    color: var(--nav-footer);
+}
+
+.swiper-button-next {
+    color: var(--nav-footer);
+}
+
+.left {
+    display: none;
+}
+
+.right {
+    display: none;
+}
+
+@media (min-width: 500px) {
+    .left {
+        display: flex;
+    }
+    .left::after {
+        padding: 0em 0em 1em;
+    }
+    .right {
+        display: flex;
+    }
+    .right::after {
+        padding: 0em 0em 1em;
+    }
+}
