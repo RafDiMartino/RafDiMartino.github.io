@@ -37,6 +37,7 @@ section {
     justify-content: center;
     width: 100%;
     background-color: var(--about);
+    box-shadow: 0 10px 10px -10px black;
   }
 
   .subContainer{
