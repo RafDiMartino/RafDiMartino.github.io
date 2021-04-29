@@ -34,7 +34,6 @@ section {
     align-items: center;
     justify-content: center;
     width: 100%;
-    
   }
 
   .subContainer{
@@ -42,10 +41,13 @@ section {
       justify-content: center;
       align-items: center;
       width: 100%;
+      
+
   }
   
   /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
+
   }
 
 @media (min-width: 500px) {
