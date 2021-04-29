@@ -30,11 +30,23 @@ section {
 }
 
 .videoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    
+  }
+
+  .subContainer{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+  }
   
-    margin-top: 0.5em;
-    padding: 3em 0em 0em;
-}
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+  }
 
 @media (min-width: 500px) {
     .logo {
