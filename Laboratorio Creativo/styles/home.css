@@ -29,6 +29,13 @@ section {
     font-size: 0.9em;
 }
 
+.videoContainer {
+    width: 100%;
+  
+    margin-top: 0.5em;
+    padding: 3em 0em 0em;
+}
+
 @media (min-width: 500px) {
     .logo {
         width: 130px;
