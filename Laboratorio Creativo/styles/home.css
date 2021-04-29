@@ -37,16 +37,7 @@ section {
     justify-content: center;
     width: 100%;
     background-color: var(--about);
-    margin-top: 0.5em;
-    padding-bottom: 2em;
   }
-
-.intervista {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    padding: 1em 0 1em;
-    color: var(--nav-footer);
-}
 
   .subContainer{
       display: flex;
@@ -55,7 +46,6 @@ section {
       width: 100%;
   }
   
-  /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
     width: 100%;
   }
