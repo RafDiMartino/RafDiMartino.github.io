@@ -12,7 +12,7 @@ section {
 .sections {
     margin: 2em 1em 2em;
     box-shadow: 0 10px 10px -10px black;
-    background-color: var(--about);
+    
 }
 
 .desContainer {
@@ -21,6 +21,7 @@ section {
     align-items: center;
     height: 50px;
     cursor: pointer;
+    background-color: var(--about);
 }
 
 .des {
@@ -31,23 +32,32 @@ section {
 
 .videoContainer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: var(--about);
+    margin-top: 0.5em;
+    padding-bottom: 2em;
   }
+
+.intervista {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 1em 0 1em;
+    color: var(--nav-footer);
+}
 
   .subContainer{
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
-      
-
   }
   
   /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
-
+    width: 100%;
   }
 
 @media (min-width: 500px) {
