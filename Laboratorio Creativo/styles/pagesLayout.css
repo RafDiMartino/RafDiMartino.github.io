@@ -105,6 +105,10 @@ p {
     cursor: pointer;
 }
 
+img.active {
+    height: auto;
+}
+
 .buttonContainer{
     width: 100%;
     display: flex;

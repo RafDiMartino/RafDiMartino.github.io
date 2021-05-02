@@ -22,10 +22,19 @@ document.querySelector(".grid-toggle").addEventListener("click", () => {
     if(toggled) {
         document.getElementById("imgList").style.display = "none";
         document.getElementById("imgGrid").style.display = "block";
+        let y = document.querySelectorAll(".images")
+        for (let i = 0; i < y.length; i++) {
+            y[i].style.height = "auto";
+        }
+
         toggled = false;
     }else {
         document.getElementById("imgList").style.display = "block";
         document.getElementById("imgGrid").style.display = "none";
+        let y = document.querySelectorAll(".images")
+        for (let i = 0; i < y.length; i++) {
+            y[i].style.height = "200px";
+        }
         toggled = true;
     }
 })
