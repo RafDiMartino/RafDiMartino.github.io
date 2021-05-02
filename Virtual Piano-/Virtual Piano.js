@@ -1,6 +1,6 @@
 // code for the audio 
 
-//Exception for the 'Tab' key.
+//Exception for the 'Tab' 'F1' 'F3' key.
 document.onkeydown = function(t) {
     if (t.code === 'Tab' || t.code === 'F1' || t.code === 'F3') {
         return false;
@@ -36,11 +36,32 @@ let keys = {
     'Backspace': new Audio("black_keys/Piano.mf.Bb5.mp3"),
 }
 
-
 document.addEventListener('keydown', function(e) {
     if (e.code in keys) {
         keys[e.code].currentTime = 0;
         keys[e.code].play();
+    }
+})
+    
+
+
+/*document.addEventListener('keydown', function(e) {
+    if (e.code in keys) {
+        keys[e.code].currentTime = 0;
+        keys[e.code].play();
+        let key = document.querySelectorAll(".key")
+        for(let y = 0; y < key.length; y++ ){
+                key[y].classList.add("active");
+                
+            }
+            console.log(key[y])
+        }
+});
+
+document.addEventListener('keyup', function(e) {
+    let i = document.querySelectorAll(".key")
+        for(let y = 0; y < i.length; y++ ){
+            i[y].classList.remove("active"); 
     }
 });
 

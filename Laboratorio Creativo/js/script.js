@@ -12,3 +12,20 @@ document.querySelector("button").addEventListener("click", function() {
         clicked = true;
     }
 });
+
+let toggled = true
+
+document.querySelector(".grid-toggle").addEventListener("click", () => {
+    
+
+    document.querySelector(".gridGallery").classList.toggle("grid-list");
+    if(toggled) {
+        document.getElementById("imgList").style.display = "none";
+        document.getElementById("imgGrid").style.display = "block";
+        toggled = false;
+    }else {
+        document.getElementById("imgList").style.display = "block";
+        document.getElementById("imgGrid").style.display = "none";
+        toggled = true;
+    }
+})
