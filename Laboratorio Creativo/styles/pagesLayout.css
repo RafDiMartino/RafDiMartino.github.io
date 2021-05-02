@@ -113,10 +113,9 @@ p {
 }
 
 .grid-list {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     margin: 2em 2em 0em;
-    gap: 1.5em;
 }
 
 .listButton{
