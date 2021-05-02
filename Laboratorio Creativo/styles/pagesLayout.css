@@ -97,8 +97,8 @@ p {
 
 
 .gridGallery img {
-    width:;
-    height:;
+    /*width:;
+    height:;*/
     object-fit: cover;
     box-shadow: 0 4px 4px -5px black;
     margin-bottom: 1em;
