@@ -93,6 +93,7 @@ p {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    -webkit-columns: 1fr 1fr 1fr;
     object-fit: cover;
     justify-content: center;
     align-items: center;
