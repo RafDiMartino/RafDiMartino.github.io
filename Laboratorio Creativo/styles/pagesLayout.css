@@ -125,7 +125,6 @@ p {
     justify-content: center;
     align-items: center;
     background-color: var(--nav-footer);
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
