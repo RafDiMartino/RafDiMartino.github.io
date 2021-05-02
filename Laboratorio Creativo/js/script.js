@@ -26,7 +26,6 @@ document.querySelector(".grid-toggle").addEventListener("click", () => {
         for (let i = 0; i < y.length; i++) {
             y[i].style.height = "auto";
         }
-
         toggled = false;
     }else {
         document.getElementById("imgList").style.display = "block";

@@ -90,11 +90,10 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: 2em 0.2em 1em;
+    margin: 1em 0.2em 1em;
     gap: 0.2em;
 
 }
-
 
 .gridGallery img {
     width: 100%;
@@ -105,29 +104,38 @@ p {
     cursor: pointer;
 }
 
-img.active {
-    height: auto;
+.grid-list {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 1em 0em;
+}
+.buttonWrapper{
+    background-color: var(--about);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 75px;
+    z-index: 100;
+
 }
 
 .buttonContainer{
+    margin-top: 0.2em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--nav-footer);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.grid-list {
-    display: flex;
-    flex-direction: column;
-    margin: 1.5em 1em 0em;
-}
 
 .listButton{
-    width: 30px;
-    height: 25px;
+    padding: 0.7em 0em;
+    width: 20px;
+    height: 15px;
     background-color: var(--nav-footer);
-    border: 1px solid black;
-    margin-top: 1.5em;
+    border: none;
     position: relative;
     display: flex;
     justify-content: center;
