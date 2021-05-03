@@ -131,8 +131,8 @@ p {
 
 .listButton{
     padding: 0.7em 0em;
-    width: 25px;
-    height: 20px;
+    width: 30px;
+    height: 25px;
     background-color: var(--nav-footer);
     border: none;
     position: relative;
