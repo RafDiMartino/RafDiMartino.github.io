@@ -1,6 +1,6 @@
 let clicked = true
 
-document.querySelector("button").addEventListener("click", function() {
+document.querySelector("button").addEventListener("click", () => {
     document.querySelector(".contentWrapper").classList.toggle("expand");
     if (clicked) {
         document.getElementById("arrow").style.transform = "rotate(180deg)";
