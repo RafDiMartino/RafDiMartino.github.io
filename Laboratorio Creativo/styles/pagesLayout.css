@@ -130,7 +130,7 @@ p {
 
 
 .listButton{
-    padding: 0.7em 0em;
+    padding: 1em 0em;
     width: 30px;
     height: 25px;
     background-color: var(--nav-footer);
