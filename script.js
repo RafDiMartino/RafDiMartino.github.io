@@ -1,3 +1,7 @@
+document.getElementById("p10").onclick = function() {
+    window.open("https://rafdimartino.github.io/react-counter-app/");
+}
+
 document.getElementById("p9").onclick = function() {
     window.open("Laboratorio Creativo/home.html");
 }
