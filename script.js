@@ -1,5 +1,5 @@
 document.getElementById("p11").onclick = function() {
-    window.open("https://rafdimartino.github.io/The-Art-Of-War-Quote-Generator/");
+    window.open("http://rafdimartino.github.io/the-art-of-war-random-quote-generator");
 }
 
 document.getElementById("p10").onclick = function() {
