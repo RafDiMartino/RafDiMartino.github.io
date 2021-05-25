@@ -1,9 +1,13 @@
-document.getElementById("p11").onclick = function() {
+document.getElementById("p12").onclick = function() {
     window.open("http://rafdimartino.github.io/the-art-of-war-random-quote-generator");
 }
 
-document.getElementById("p10").onclick = function() {
+document.getElementById("p11").onclick = function() {
     window.open("https://rafdimartino.github.io/react-counter-app/");
+}
+
+document.getElementById("p10").onclick = function() {
+    window.open("Calculator/index.html");
 }
 
 document.getElementById("p9").onclick = function() {
