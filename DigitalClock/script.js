@@ -1,5 +1,5 @@
 
-function currentTime() {
+const currentTime = () => {
     let date = new Date(); /* creating object of Date class */
     let hour = date.getHours();
     let min = date.getMinutes();
@@ -15,16 +15,16 @@ function currentTime() {
     day = updateTime(day);
     month = updateTime(month);
     year = updateTime(year)
-    let t = setTimeout(currentTime, 1000); /* setting timer */
+    setTimeout(currentTime, 1000); /* setting timer */
     document.getElementById("hours").innerText = hour + ":";
     document.getElementById("minutes").innerText = min + ":";
     document.getElementById("seconds").innerText = sec;
     document.getElementById("ampm").innerText = ampm;
-    document.getElementById("date").innerText = weekday[d.getDay()].substring(0,3) + " " + day + " " + monthName.substring(0,3) + " " + year;
+    document.getElementById("date").innerText = `${weekday[d.getDay()].substring(0,3)} ${day} ${monthName.substring(0,3)} ${year}`
 
 }
 
-function updateTime(k) { /* appending 0 before time elements if less than 10 */
+const updateTime = (k) => { /* appending 0 before time elements if less than 10 */
   if (k < 10) {
       return "0" + k;
   }
@@ -55,7 +55,7 @@ currentTime();
 
 let clicked = true;
 
-function buttonOn() {
+const buttonOn = () => {
   if (clicked){
     document.getElementById("clock").style.color = "rgba(30, 255, 0, 0.623)";
     document.getElementById("clock").style.transition = "all 3s ease";
@@ -69,7 +69,7 @@ function buttonOn() {
   }
 };
 
-function buttonOff() {
+const buttonOff = () => {
   document.getElementById("clock").style.color = "rgb(20, 20, 20)";
   document.getElementById("btn").style.backgroundColor = "rgba(255, 0, 0, 0.205)";
 };
