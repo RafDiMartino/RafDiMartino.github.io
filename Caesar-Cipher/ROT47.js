@@ -1,4 +1,4 @@
-function rot47E() {
+const rot47E = () => {
 
     let message = document.getElementById("messageE").value;
 
@@ -15,7 +15,7 @@ function rot47E() {
     document.getElementById("result").innerText = result;
 }
 
-function rot47D() {
+const rot47D = () => {
 
     let message = document.getElementById("messageD").value;
 

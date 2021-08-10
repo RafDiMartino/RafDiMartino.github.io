@@ -1,4 +1,4 @@
-function rot13E() {
+const rot13E = () => {
 
     let message = document.getElementById("messageE").value;
 
@@ -12,7 +12,7 @@ function rot13E() {
     document.getElementById("result").innerText = result;
 }
 
-function rot13D() {
+const rot13D = () => {
 
     let message = document.getElementById("messageD").value;
 

@@ -1,4 +1,4 @@
-function rot5E() {
+const rot5E = () => {
     let message = document.getElementById("messageE").value;
     let s = [];
     for (i = 0; i < message.length; i++) {
@@ -17,7 +17,7 @@ function rot5E() {
     document.getElementById("result").innerText = result;
 }
 
-function rot5D() {
+const rot5D = () => {
     let message = document.getElementById("messageD").value;
     let s = [];
     for (i = 0; i < message.length; i++) {

@@ -1,5 +1,4 @@
-function function1() {
-    let encrypt = true;
+const encrypt = () => {
     if (encrypt) {
         document.querySelector(".encr-decr").style.display = "none";
         document.querySelector(".encrypt").style.display = "flex";
@@ -11,13 +10,8 @@ function function1() {
     }
 }
 
-if (messageE.value.length > 0) {
-    document.getElementById("rot13En").disabled = false;
-}
 
-
-function function2() {
-    let decrypt = true
+const decrypt = () => {
     if (decrypt) {
         document.querySelector(".encr-decr").style.display = "none";
         document.querySelector(".decrypt").style.display = "flex"
@@ -29,9 +23,8 @@ function function2() {
     }
 }
 
-function back() {
-    let arrow = true
-    if (arrow) {
+const back = () => {
+    if (back) {
         document.querySelector(".encrypt").style.display = "none"
         document.querySelector(".decrypt").style.display = "none"
         document.querySelector(".encr-decr").style.display = "flex";
