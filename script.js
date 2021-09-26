@@ -11,7 +11,7 @@ document.getElementById("p10").onclick = function() {
 }
 
 document.getElementById("p9").onclick = function() {
-    window.open("Laboratorio Creativo/home.html");
+    window.open("Laboratorio Creativo/index.html");
 }
 
 document.getElementById("p8").onclick = function() {
